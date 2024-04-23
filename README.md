@@ -1,6 +1,7 @@
 ### Hi there, i'm ramadhafidz 👋
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ramadhafidz)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ramadhafidz&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ramadhafidz&layout=compact&theme=transparent)
 
 - 😄 Pronouns: he/him
 - 🌱 I’m currently learning C++ & Python
