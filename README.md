@@ -1,6 +1,6 @@
-### Hi there, i'm ramadhafidz 👋
+## Hi there, i'm @ramadhafidz 👋
 
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=ramadhafidz&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
+[![ramadhafidz's GitHub stats](https://github-readme-stats.vercel.app/api?username=ramadhafidz&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ramadhafidz&layout=compact&theme=transparent)
 
 - 😄 Pronouns: he/him
