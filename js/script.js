@@ -1,4 +1,3 @@
-/* ----- NAVIGATION BAR FUNCTION ----- */
 function myMenuFunction(){
   let menuBtn = document.getElementById("myNavMenu");
 
@@ -9,7 +8,6 @@ function myMenuFunction(){
   }
 }
 
-/* ----- ADD SHADOW ON NAVIGATION BAR WHILE SCROLLING ----- */
 window.onscroll = function() {headerShadow()};
 
 function headerShadow() {
@@ -26,8 +24,6 @@ function headerShadow() {
   }
 }
 
-
-/* ----- TYPING EFFECT ----- */
 let typingEffect = new Typed(".typedText",{
   strings : ["Designer","Developer", "Mahasiswa"],
   loop : true,
@@ -36,8 +32,6 @@ let typingEffect = new Typed(".typedText",{
   backDelay : 2000
 })
 
-
-/* ----- ## -- SCROLL REVEAL ANIMATION -- ## ----- */
 const sr = ScrollReveal({
   origin: 'top',
   distance: '80px',
@@ -45,7 +39,6 @@ const sr = ScrollReveal({
   reset: true     
 })
 
-/* -- HOME -- */
 sr.reveal('.featured-text-card',{})
 sr.reveal('.featured-name',{delay: 100})
 sr.reveal('.featured-text-info',{delay: 200})
@@ -53,16 +46,10 @@ sr.reveal('.featured-text-btn',{delay: 200})
 sr.reveal('.social_icons',{delay: 200})
 sr.reveal('.featured-image',{delay: 300})
 
-
-/* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
 
-/* -- HEADINGS -- */
 sr.reveal('.top-header',{})
 
-/* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
-
-/* -- ABOUT INFO & CONTACT INFO -- */
 const srLeft = ScrollReveal({
   origin: 'left',
   distance: '80px',
@@ -73,7 +60,6 @@ const srLeft = ScrollReveal({
 srLeft.reveal('.about-info',{delay: 100})
 srLeft.reveal('.contact-info',{delay: 100})
 
-/* -- ABOUT SKILLS & FORM BOX -- */
 const srRight = ScrollReveal({
   origin: 'right',
   distance: '80px',
@@ -83,10 +69,6 @@ const srRight = ScrollReveal({
 
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
-
-
-
-/* ----- CHANGE ACTIVE LINK ----- */
 
 const sections = document.querySelectorAll('section[id]')
 
@@ -107,3 +89,20 @@ sections.forEach(current =>{
 }
 
 window.addEventListener('scroll', scrollActive)
+
+// gsap.registerPlugin(ScrollTrigger);
+
+const section = gsap.utils.toArray(".panel");
+const container = document.querySelector(".container");
+
+gsap.to(section, {
+  xPercent: -100 * (section.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: ".container-edu",
+    pin: true,
+    scrub: 1,
+    snap: 1 / (section.length - 1),
+    end: () => `+=$(container.offsetWidth)`,
+  },
+});

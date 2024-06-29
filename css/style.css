@@ -27,8 +27,10 @@
 }
 
 /* ----- SMOOTH SCROLL ----- */
-html{
+html {
+    overflow-y: scroll;
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* ----- CHANGE THE SCROLL BAR DESIGN ----- */
@@ -76,6 +78,9 @@ i{
 /* ------- BASE -------- */
 body{
     background: var(--body-color);
+    overflow-y: visible;
+    position: relative;
+    height: unset;
 }
 .container{
     width: 100%;
@@ -238,17 +243,11 @@ nav{
     margin: auto 0;
     width: 380px;
     height: 380px;
-    animation: imgFloat 7s ease-in-out infinite;
 }
 .image img{
     width: 380px;
     height: 380px;
     object-fit: contain;
-}
-@keyframes imgFloat {
-    50%{
-        transform: translateY(10px);
-    }
 }
 .scroll-btn{
    position: absolute;
@@ -272,8 +271,9 @@ nav{
 }
 
 /* ----- MAIN BOX ----- */
-.section{
+section{
     padding-block: 5em;
+    height: 100vh;
 }
 .row{
     display: flex;
@@ -356,56 +356,21 @@ h3{
     border-radius: 5px;
 }
 
-/* ----- PROJECTS BOX ----- */
-.project-container{
+.container-edu {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: wrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
 }
-.project-box{
-    position: relative;
+  
+.panel {
+    min-width: 100vw;
+    scroll-snap-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 30%;
-    height: 250px;
-    background: var(--color-white);
-    border-radius: 20px;
-    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    overflow: hidden;
 }
-.project-box>i{
-    font-size: 50px;
-    color: #00B5E7;
-    margin-bottom: 25px;
-}
-.project-box label{
-    font-size: 15px;
-    color: #777;
-}
-.project-box::after, .contact-info::after{
-    content: "";
-    position: absolute;
-    bottom: -100%;
-    background: var(--second-color);
-    width: 100%;
-    height: 100%;
-    transition: .4s;
-    z-index: 1;
-}
-.project-box:hover.project-box::after,
-.contact-info:hover.contact-info::after{
-    bottom: 0;
-}
-.project-box:hover.project-box i,
-.project-box:hover.project-box>h3,
-.project-box:hover.project-box>label{
-    color: var(--color-white);
-    z-index: 2;
-}
+  
 
 /* ----- CONTACT BOX ----- */
 .contact-info{
