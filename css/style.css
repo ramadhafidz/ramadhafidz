@@ -79,6 +79,7 @@ i{
 body{
     background: var(--body-color);
     overflow-y: visible;
+    overflow-x: hidden;
     position: relative;
     height: unset;
 }
@@ -360,16 +361,49 @@ h3{
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+}
+
+.container-edu::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in Chrome, Safari and Edge */
 }
   
 .panel {
     min-width: 100vw;
     scroll-snap-align: center;
     display: flex;
+    align-items: center;
+    padding: 20px;
+}
+  
+.school-img {
+    flex: 1;
+    display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
+  
+.school-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+  
+.school-info {
+    flex: 1;
+    padding: 20px;
+}
+  
+.school-info h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+  
+.school-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+  
   
 
 /* ----- CONTACT BOX ----- */

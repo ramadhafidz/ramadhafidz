@@ -90,7 +90,7 @@ sections.forEach(current =>{
 
 window.addEventListener('scroll', scrollActive)
 
-// gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger);
 
 const section = gsap.utils.toArray(".panel");
 const container = document.querySelector(".container");
@@ -101,8 +101,12 @@ gsap.to(section, {
   scrollTrigger: {
     trigger: ".container-edu",
     pin: true,
-    scrub: 1,
-    snap: 1 / (section.length - 1),
+    scrub: 3,
+    snap: {
+      snapTo: 1 / (sections.length - 1),
+      duration: 0.5, // Duration of the snap animation
+      ease: "power1.inOut" // Ease function for the snap animation
+    },
     end: () => `+=$(container.offsetWidth)`,
   },
 });
