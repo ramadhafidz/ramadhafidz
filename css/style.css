@@ -402,7 +402,10 @@ h3{
     font-size: 1.2em;
     margin: 5px 0;
 }
-  
+
+.school-name {
+    color: var(--text-color-third);
+}
   
 
 /* ----- CONTACT BOX ----- */

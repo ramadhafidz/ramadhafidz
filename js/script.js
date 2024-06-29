@@ -89,39 +89,3 @@ function scrollActive() {
 }
 
 window.addEventListener('scroll', scrollActive);
-
-gsap.registerPlugin(ScrollTrigger);
-
-const panels = gsap.utils.toArray(".panel");
-const container = document.querySelector(".container-edu");
-
-gsap.to(panels, {
-  xPercent: -100 * (panels.length - 1),
-  ease: "none",
-  scrollTrigger: {
-    trigger: container,
-    pin: true,
-    scrub: 1,
-    snap: {
-      snapTo: 1 / (panels.length - 1),
-      duration: 0.5, // Durasi animasi snap
-    },
-    end: () => `+=${container.offsetWidth}`,
-  },
-});
-
-const containerEdu = document.querySelector('.container-edu');
-    const educationSection = document.querySelector('#education');
-    const contactSection = document.querySelector('#contact');
-    
-    containerEdu.addEventListener('scroll', () => {
-      const maxScrollLeft = containerEdu.scrollWidth - containerEdu.clientWidth;
-      if (containerEdu.scrollLeft >= maxScrollLeft) {
-        educationSection.style.overflowY = 'auto'; // Izinkan scroll vertikal
-      } else {
-        educationSection.style.overflowY = 'hidden'; // Batasi scroll vertikal
-      }
-    });
-
-    // Inisialisasi kondisi awal
-    educationSection.style.overflowY = 'hidden';
