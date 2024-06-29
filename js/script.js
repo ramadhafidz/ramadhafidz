@@ -11,9 +11,9 @@ function myMenuFunction(){
 window.onscroll = function() {headerShadow()};
 
 function headerShadow() {
-  const navHeader =document.getElementById("header");
+  const navHeader = document.getElementById("header");
 
-  if (document.body.scrollTop > 50 || document.documentElement.scrollTop >  50) {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
     navHeader.style.boxShadow = "0 1px 6px rgba(0, 0, 0, 0.1)";
     navHeader.style.height = "70px";
     navHeader.style.lineHeight = "70px";
@@ -24,89 +24,104 @@ function headerShadow() {
   }
 }
 
-let typingEffect = new Typed(".typedText",{
-  strings : ["Designer","Developer", "Mahasiswa"],
-  loop : true,
-  typeSpeed : 100, 
-  backSpeed : 80,
-  backDelay : 2000
-})
+let typingEffect = new Typed(".typedText", {
+  strings: ["Designer", "Developer", "Mahasiswa"],
+  loop: true,
+  typeSpeed: 100,
+  backSpeed: 80,
+  backDelay: 2000
+});
 
 const sr = ScrollReveal({
   origin: 'top',
   distance: '80px',
   duration: 2000,
   reset: true     
-})
+});
 
-sr.reveal('.featured-text-card',{})
-sr.reveal('.featured-name',{delay: 100})
-sr.reveal('.featured-text-info',{delay: 200})
-sr.reveal('.featured-text-btn',{delay: 200})
-sr.reveal('.social_icons',{delay: 200})
-sr.reveal('.featured-image',{delay: 300})
+sr.reveal('.featured-text-card', {});
+sr.reveal('.featured-name', {delay: 100});
+sr.reveal('.featured-text-info', {delay: 200});
+sr.reveal('.featured-text-btn', {delay: 200});
+sr.reveal('.social_icons', {delay: 200});
+sr.reveal('.featured-image', {delay: 300});
 
-sr.reveal('.project-box',{interval: 200})
+sr.reveal('.project-box', {interval: 200});
 
-sr.reveal('.top-header',{})
+sr.reveal('.top-header', {});
 
 const srLeft = ScrollReveal({
   origin: 'left',
   distance: '80px',
   duration: 2000,
   reset: true
-})
+});
 
-srLeft.reveal('.about-info',{delay: 100})
-srLeft.reveal('.contact-info',{delay: 100})
+srLeft.reveal('.about-info', {delay: 100});
+srLeft.reveal('.contact-info', {delay: 100});
 
 const srRight = ScrollReveal({
   origin: 'right',
   distance: '80px',
   duration: 2000,
   reset: true
-})
+});
 
-srRight.reveal('.skills-box',{delay: 100})
-srRight.reveal('.form-control',{delay: 100})
+srRight.reveal('.skills-box', {delay: 100});
+srRight.reveal('.form-control', {delay: 100});
 
-const sections = document.querySelectorAll('section[id]')
+const sections = document.querySelectorAll('section[id]');
 
 function scrollActive() {
-const scrollY = window.scrollY;
+  const scrollY = window.scrollY;
 
-sections.forEach(current =>{
-  const sectionHeight = current.offsetHeight,
-      sectionTop = current.offsetTop - 50,
-      sectionId = current.getAttribute('id')
+  sections.forEach(current => {
+    const sectionHeight = current.offsetHeight,
+          sectionTop = current.offsetTop - 50,
+          sectionId = current.getAttribute('id');
 
-  if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) { 
-      document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.add('active-link')
-  }  else {
-    document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.remove('active-link')
-  }
-})
+    if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) { 
+        document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.add('active-link');
+    }  else {
+      document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.remove('active-link');
+    }
+  });
 }
 
-window.addEventListener('scroll', scrollActive)
+window.addEventListener('scroll', scrollActive);
 
 gsap.registerPlugin(ScrollTrigger);
 
-const section = gsap.utils.toArray(".panel");
-const container = document.querySelector(".container");
+const panels = gsap.utils.toArray(".panel");
+const container = document.querySelector(".container-edu");
 
-gsap.to(section, {
-  xPercent: -100 * (section.length - 1),
+gsap.to(panels, {
+  xPercent: -100 * (panels.length - 1),
   ease: "none",
   scrollTrigger: {
-    trigger: ".container-edu",
+    trigger: container,
     pin: true,
-    scrub: 3,
+    scrub: 1,
     snap: {
-      snapTo: 1 / (sections.length - 1),
-      duration: 0.5, // Duration of the snap animation
-      ease: "power1.inOut" // Ease function for the snap animation
+      snapTo: 1 / (panels.length - 1),
+      duration: 0.5, // Durasi animasi snap
     },
-    end: () => `+=$(container.offsetWidth)`,
+    end: () => `+=${container.offsetWidth}`,
   },
 });
+
+const containerEdu = document.querySelector('.container-edu');
+    const educationSection = document.querySelector('#education');
+    const contactSection = document.querySelector('#contact');
+    
+    containerEdu.addEventListener('scroll', () => {
+      const maxScrollLeft = containerEdu.scrollWidth - containerEdu.clientWidth;
+      if (containerEdu.scrollLeft >= maxScrollLeft) {
+        educationSection.style.overflowY = 'auto'; // Izinkan scroll vertikal
+      } else {
+        educationSection.style.overflowY = 'hidden'; // Batasi scroll vertikal
+      }
+    });
+
+    // Inisialisasi kondisi awal
+    educationSection.style.overflowY = 'hidden';
