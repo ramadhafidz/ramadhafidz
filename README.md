@@ -49,6 +49,8 @@
 ---
 
 #### 📊 Statistik Koding Mingguan Saya
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
 
 ---
 
