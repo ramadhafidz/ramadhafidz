@@ -1,60 +1,91 @@
-<div align="center">
-  <h1>Hi there! 👋 I'm Ramadhafidz</h1>
-  <h3>A passionate developer from Indonesia 🇮🇩</h3>
+<table border="0">
+  <tr>
+    <td>
+      <h1>Hi there! 👋 I'm Ramadhafidz</h1>
+      <h3>A passionate developer from Indonesia 🇮🇩</h3>
+      <p>I'm a computer science student with a passion for building cool stuff. I love learning new technologies and working on projects that challenge me.</p>
+    </td>
+    <td>
+      <div style="width: 200px; height: 200px; overflow: hidden;">
+        <img src="https://giffiles.alphacoders.com/219/219506.gif" style="width: 100%; height: 100%; object-fit: cover; object-position: 20% center;">
 </div>
+    </td>
+  </tr>
+</table>
 
 ## 💫 About Me
 - 🎓 Computer Science Student at Sultan Ageng Tirtayasa University
-- 🌱 Currently learning ReactJS & NextJS
-- 👨‍💻 Interested in Web Development and Software Engineering
+- 🌱 Currently learning **ReactJS & NextJS**
+- 👨‍💻 Interested in **Web Development** and **Software Engineering**
 - 📚 Always eager to learn new technologies
-- 😄 Pronouns: he/him
+- 😄 Pronouns: **he/him**
+
+<div align="center">
 
 ## 🌐 Connect With Me
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hr.ghiffari) 
-[![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Ramidzee)
-[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.com/users/631787291655798795)
-[![Steam](https://img.shields.io/badge/Steam-%23011138.svg?logo=steam&logoColor=white)](https://steamcommunity.com/id/ramidzee/)
-[![Email](https://img.shields.io/badge/Mail-%23005FF9.svg?logo=maildotru&logoColor=white)](mailto:hrghiffari@gmail.com)
+
+<a href="https://instagram.com/hr.ghiffari" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white" alt="Instagram" />
+</a>
+<a href="https://reddit.com/user/Ramidzee" target="_blank">
+  <img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white" alt="Reddit" />
+</a>
+<a href="https://discord.com/users/631787291655798795" target="_blank">
+  <img src="https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" />
+</a>
+<a href="https://steamcommunity.com/id/ramidzee/" target="_blank">
+  <img src="https://img.shields.io/badge/Steam-%23011138.svg?style=for-the-badge&logo=steam&logoColor=white" alt="Steam" />
+</a>
+<a href="mailto:hrghiffari@gmail.com">
+  <img src="https://img.shields.io/badge/Mail-%23005FF9.svg?style=for-the-badge&logo=maildotru&logoColor=white" alt="Email" />
+</a>
+
+</div>
 
 ## 💻 Tech Stack
 
-### Programming Languages
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Typescript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
-![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge)
-![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white&style=for-the-badge)
-![Tailwind](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge)
+### Languages
+<div align="left">
+  <img src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white&style=for-the-badge" alt="Dart" />
+</div>
 
-### Frameworks
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![Livewire](https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white)
-![ReactJS](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge)
-![NextJS](https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge)
-![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge)
+### Frameworks & Libraries
+<div align="left">
+  <img src="https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/livewire-%234e56a6.svg?style=for-the-badge&logo=livewire&logoColor=white" alt="Livewire" />
+  <img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black&style=for-the-badge" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?logo=nextdotjs&logoColor=white&style=for-the-badge" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=for-the-badge" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4?logo=tailwindcss&logoColor=black&style=for-the-badge" alt="Tailwind CSS" />
+</div>
 
-### Databases
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=black&style=for-the-badge)
-![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge)
+### Databases & Tools
+<div align="left">
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?logo=supabase&logoColor=black&style=for-the-badge" alt="Supabase" />
+  <img src="https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=for-the-badge" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge" alt="Git" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=black&style=for-the-badge" alt="Postman" />
+</div>
 
-### Programming Tools
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?logo=postman&logoColor=black&style=for-the-badge)
-
-### Design Tools
-![Adobe After Effects](https://img.shields.io/badge/Adobe%20After%20Effects-9999FF.svg?style=for-the-badge&logo=Adobe%20After%20Effects&logoColor=white)
-![Adobe Illustrator](https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)
-![Adobe XD](https://img.shields.io/badge/Adobe%20XD-470137?style=for-the-badge&logo=Adobe%20XD&logoColor=#FF61F6)
-![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+### Design
+<div align="left">
+  <img src="https://img.shields.io/badge/Figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white" alt="Figma" />
+  <img src="https://img.shields.io/badge/adobe%20illustrator-%23FF9A00.svg?style=for-the-badge&logo=adobe%20illustrator&logoColor=white" alt="Illustrator" />
+  <img src="https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white" alt="Photoshop" />
+</div>
 
 ## 📊 GitHub Stats
+
 <div align="center">
-  <img src="https://nirzak-streak-stats.vercel.app/?user=ramadhafidz&theme=catppuccin_mocha&hide_border=false" alt="GitHub Streak" />
-  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramadhafidz&theme=catppuccin_mocha&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" /> -->
+  <br/>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=ramadhafidz&theme=catppuccin_mocha&hide_border=true" alt="GitHub Streak" />
+  <br/>
 </div>
 
 ---
@@ -74,7 +105,12 @@ CSS          12 mins         ▓░░░░░░░░░░░░░░░░
 
 ---
 
-## Snake
-<img src="https://raw.githubusercontent.com/ramadhafidz/ramadhafidz/output/snake.svg" alt="Snake animation" />
+## 🐍 Activity Graph
+<div align="center">
+  <img src="https://raw.githubusercontent.com/ramadhafidz/ramadhafidz/output/snake.svg" alt="Snake animation" width="100%" />
+</div>
 
-###
+<div align="center">
+  <h3>Thanks for visiting!</h3>
+  <p><img src="https://komarev.com/ghpvc/?username=ramadhafidz&label=Profile%20Views&color=blue&style=flat" alt="Profile Views" /></p>
+</div>
