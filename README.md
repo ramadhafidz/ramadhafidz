@@ -13,6 +13,9 @@
 ## 🌐 Connect With Me
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/hr.ghiffari) 
 [![Reddit](https://img.shields.io/badge/Reddit-%23FF4500.svg?logo=Reddit&logoColor=white)](https://reddit.com/user/Ramidzee)
+[![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?logo=discord&logoColor=white)](https://discord.com/users/631787291655798795)
+[![Steam](https://img.shields.io/badge/Steam-%23011138.svg?logo=steam&logoColor=white)](https://steamcommunity.com/id/ramidzee/)
+[![Email](https://img.shields.io/badge/Mail-%23005FF9.svg?logo=maildotru&logoColor=white)](mailto:hrghiffari@gmail.com)
 
 ## 💻 Tech Stack
 
@@ -51,7 +54,7 @@
 ## 📊 GitHub Stats
 <div align="center">
   <img src="https://nirzak-streak-stats.vercel.app/?user=ramadhafidz&theme=catppuccin_mocha&hide_border=false" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramadhafidz&theme=catppuccin_mocha&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ramadhafidz&theme=catppuccin_mocha&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" /> -->
 </div>
 
 ---
