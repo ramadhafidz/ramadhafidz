@@ -72,5 +72,7 @@ CSS          12 mins         ▓░░░░░░░░░░░░░░░░
 
 ---
 
-## 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=ramadhafidz&limit=5&theme=dark&combine_all_yearly_contributions=true)
+## Snake
+<img src="https://raw.githubusercontent.com/ramadhafidz/ramadhafidz/output/snake.svg" alt="Snake animation" />
+
+###
