@@ -94,11 +94,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Bash         18 mins         ████████░░░░░░░░░░░░░░░░░   32.33 %
-JSON         14 mins         ██████▒░░░░░░░░░░░░░░░░░░   25.14 %
-YAML         10 mins         ████▒░░░░░░░░░░░░░░░░░░░░   17.68 %
-JavaScript   6 mins          ███░░░░░░░░░░░░░░░░░░░░░░   11.51 %
-PHP          5 mins          ██▒░░░░░░░░░░░░░░░░░░░░░░   08.89 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
