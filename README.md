@@ -94,7 +94,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-No activity tracked
+PHP          2 hrs 33 mins         ████████░░░░░░░░░░░░░░░░░   32.09 %
+TypeScript   2 hrs 30 mins         ████████░░░░░░░░░░░░░░░░░   31.41 %
+Markdown     1 hr 32 mins          █████░░░░░░░░░░░░░░░░░░░░   19.41 %
+Bash         1 hr 10 mins          ███▓░░░░░░░░░░░░░░░░░░░░░   14.71 %
+JSON         7 mins                ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.56 %
 ```
 
 <!--END_SECTION:waka-->
