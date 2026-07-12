@@ -94,11 +94,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-TypeScript   1 hr 13 mins          █████████▒░░░░░░░░░░░░░░░   37.44 %
-Docker       45 mins               █████▓░░░░░░░░░░░░░░░░░░░   22.95 %
-PHP          29 mins               ███▓░░░░░░░░░░░░░░░░░░░░░   14.93 %
-YAML         28 mins               ███▓░░░░░░░░░░░░░░░░░░░░░   14.33 %
-CSS          12 mins               █▓░░░░░░░░░░░░░░░░░░░░░░░   06.30 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
