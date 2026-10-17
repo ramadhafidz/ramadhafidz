@@ -94,10 +94,7 @@
 <!--START_SECTION:waka-->
 
 ```txt
-Rust         50 mins               █████████████████▒░░░░░░░   69.21 %
-Markdown     12 mins               ████▒░░░░░░░░░░░░░░░░░░░░   17.40 %
-TypeScript   8 mins                ███░░░░░░░░░░░░░░░░░░░░░░   11.77 %
-JSON         1 min                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.62 %
+No activity tracked
 ```
 
 <!--END_SECTION:waka-->
